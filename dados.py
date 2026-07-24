@@ -18,7 +18,7 @@ def salvarDados(caminho, lista):
         with open(caminho, "w", encoding="utf-8") as arquivo:
             # vai escrever a lista no arquivo(caminnho)
             json.dump(lista, arquivo, indent=4, ensure_ascii=False)
-    except Exception as erro:  # mostra o erro caso não funcione
+    except (OSError, PermissionError, TypeError) as erro:  # mostra o erro caso não funcione
         print(f"Houve um erro de {erro}")
     else:
         print("Transação salva com SUCESSO!")

@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "tipo": "receita",
+        "descricao": "salario/vitoria",
+        "valor": 1600,
+        "categoria": "salario"
+    },
+    {
+        "id": 2,
+        "tipo": "despesa",
+        "descricao": "corte de cabelo",
+        "valor": 30.9,
+        "categoria": "barbeiro"
+    },
+    {
+        "id": 3,
+        "tipo": "despesa",
+        "descricao": "coca cola",
+        "valor": 9.5,
+        "categoria": "mercado"
+    }
+]
